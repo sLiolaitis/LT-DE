@@ -1,12 +1,11 @@
 package com.company;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
-
+// addded just a commented line
 // randomaizeris kad nekartotu skaiciu
 
     // double enter problema
@@ -39,8 +38,8 @@ public class Main {
 
                 ArrayList<String> pakartojimuiLT = new ArrayList<String>();
                 ArrayList<String> pakartojimuiDE = new ArrayList<String>();
-                Lt a1 = new Lt("A1");
-                De A1 = new De("A1");
+                com.company.Lt a1 = new com.company.Lt("A1");
+                com.company.De A1 = new com.company.De("A1");
 
                 A1.pridetiZodi("die Einrichtung"); // yra
                 A1.pridetiZodi("die Pflanze"); // yra
@@ -872,8 +871,8 @@ public class Main {
 
                 ArrayList<String> pakartojimuiLT1 = new ArrayList<String>();
                 ArrayList<String> pakartojimuiDE1 = new ArrayList<String>();
-                Lt a2 = new Lt("A2");
-                De A2 = new De("A2");
+                com.company.Lt a2 = new com.company.Lt("A2");
+                com.company.De A2 = new com.company.De("A2");
 
 
 
@@ -1935,8 +1934,8 @@ public class Main {
 
                 ArrayList<String> pakartojimuiLT2 = new ArrayList<String>();
                 ArrayList<String> pakartojimuiDE2 = new ArrayList<String>();
-                Lt b1 = new Lt("B1");
-                De B1 = new De("B1");
+                com.company.Lt b1 = new com.company.Lt("B1");
+                com.company.De B1 = new com.company.De("B1");
 
 //                B1.pridetiZodi("passende");
 //                B1.pridetiZodi("die Einleitung");
